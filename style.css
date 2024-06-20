@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial;
+    gap: 20px;
+
+}
+.card h1{
+    font-size: 1.2em;
+}
+.card div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    height: 40px;
+
+    
+}
+.card h1{
+    font-size: 0.9rem;
+    color: #5c5c5c;
+}
+.card{
+
+    background-color: white;
+    width: 180px;
+    height: 280px;
+    border-radius: 10px;
+    box-shadow:  4px 4px 10px gray;
+
+
+}
+.card h1{
+
+
+}
