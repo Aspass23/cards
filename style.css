@@ -6,15 +6,33 @@
 body{
 
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:center;
+    align-items:center;
+    /* centralização dos itens */
     height: 100vh;
     font-family: Arial;
     gap: 20px;
+    /* gap= distancia dos cards */
 
 }
-.card h1{
-    font-size: 1.2em;
+.card {
+    /* olhar depois o que quer dizer cada passo a passo */
+   background-color: #f6f7bb;
+   /* cor da pagina */
+   width: 200px;
+   height: 240px;
+   border-radius: 15px;
+   box-shadow: 4px 4px 10px rgba(128,128,128,0.783);
+}
+.card img {
+    /* ver essas alterações */
+    width: 50%;
+    height: 140px;
+    border-top-left-radius:12px;
+    border-top-left-radius:12px;
+    margin-left: 20%;
+    margin-top: 10%;
+
 }
 .card div{
     display: flex;
@@ -22,7 +40,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 2px;
-    height: 40px;
+    height: 30px;
 
     
 }
@@ -30,17 +48,20 @@ body{
     font-size: 0.9rem;
     color: #5c5c5c;
 }
-.card{
-
-    background-color: white;
-    width: 180px;
-    height: 280px;
-    border-radius: 10px;
-    box-shadow:  4px 4px 10px gray;
-
-
+.card button {
+    /* botão */
+    background-color: #1682e7;
+    height: 30px;
+    border: none;
+    padding: 4px;
+    width: 80%;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 4px;
 }
-.card h1{
-
-
+.card button:hover {
+    /* cursor */
+    background-color: #81b6eb;
+    cursor: pointer;
 }
