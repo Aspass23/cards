@@ -15,9 +15,9 @@ body{
     /* gap= distancia dos cards */
 
 }
-.card {
+.card:hover {
     /* olhar depois o que quer dizer cada passo a passo */
-   background-color: #f6f7bb;
+   background-color: #b6b5b5;
    /* cor da pagina */
    width: 200px;
    height: 240px;
@@ -45,10 +45,33 @@ body{
     
 }
 .card h1{
-    font-size: 0.9rem;
-    color: #5c5c5c;
+    margin-bottom: 1px;
+    font-style: normal;
+    font-family: arial;
+    font-size: 100%;
+    color:black;
+    text-shadow: 2px 2px 4px #fff;
+}
+.card h2{
+    margin-top: 8%;
+    margin-bottom: 5%;
+    text-shadow: 1px 1px 3px black;
+    position:relative;
+    height: 100vh;
+    top: 10px;
+
+}
+.card span{
+    top: 1rem;
+    height:15px;
+    border: none;
+    padding: 5px;
+    width: 50%;
+    color:purple;
+    font-weight:bold;
 }
 .card button {
+ 
     /* botão */
     background-color: #1682e7;
     height: 30px;
